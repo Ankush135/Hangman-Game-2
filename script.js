@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
     const words = ["UNITEDKINGDOM", "FRANCE", "GERMANY", "ITALY", "SPAIN", "INDIA", "AUSTRALIA"];
-    const maxLives = 5;
+    const maxLives = 3;
     let lives = maxLives;
     let selectedWord = '';
     let guessedLetters = [];
